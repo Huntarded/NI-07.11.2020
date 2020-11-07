@@ -4,8 +4,15 @@ using namespace std;
 
 int main() {
 
-	int wysokosc = 5;
-	int szerokosc = 10;
+	int wysokosc;
+	int szerokosc;
+	
+
+
+	cout << "Podaj wysokosc: ";
+	cin >> wysokosc;
+	cout << "Podaj dlugosc: ";
+	cin >> szerokosc;
 
 
 	for (size_t i = 0; i < wysokosc; i++)
